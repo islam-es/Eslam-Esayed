@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Marhey:wght@300..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Marhey:wght@300..700&family=Tajawal:wght@200;300;400;500;700;800;900&display=swap");
+body {
+  /* font-family: 'Marhey', sans-serif; */
+  font-family: "Tajawal", sans-serif;
+  direction: rtl;
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+:root {
+  --main-link-hover: #f5a425;
+  --main-transation: 0.3s;
+  --a-background: #a12c2f;
+  --main-text-color: #1f272b;
+  --main-backGraound: #ecf1f9;
+}
+.box {
+  border-radius: 10px;
+  overflow: hidden;
+}
+@media (min-width: 765px) {
+  .box {
+    min-width: calc((100% - 20px) / 2);
+  }
+}
+@media (max-width: 465px) {
+  .box {
+    width: 100%;
+  }
+}
+.box .doctor_info {
+  background: #000000d4;
+  border-bottom: 2px solid var(--main-link-hover);
+  padding: 5px;
+  color: var(--main-backGraound);
+  position: relative;
+}
+.box .doctor_info .date{
+position: absolute;
+top: 12px;
+left: 10px;
+
+}
+.box .doctor_info .date span{
+  font-size: 10px;
+}
+.box .main_content {
+  background-color: #474747;
+  color: white;
+}
+.box .main_content h4{
+ border-bottom: 1px solid #ddd;
+ border-top: 1px solid #ddd;
+}

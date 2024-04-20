@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Marhey:wght@300..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Marhey:wght@300..700&family=Tajawal:wght@200;300;400;500;700;800;900&display=swap");
+body {
+  /* font-family: 'Marhey', sans-serif; */
+  font-family: "Tajawal", sans-serif;
+  direction: rtl;
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  
+}
+
+:root {
+  --main-link-hover: #f5a425;
+  --main-transation: 0.3s;
+  --a-background: #a12c2f;
+  --main-text-color: #1f272b;
+  --main-backGraound:#ecf1f9;
+}
+.visit_info{
+  text-align: center;
+  
+}
+.visit_info input{
+  text-align: center;
+}
+
+.visit_info >form{
+    background-color: #ffffff;
+    border-radius: 15px;
+}
+.visit_info input,.visit_info textarea{
+    outline: none;
+    padding: 3px 10px;
+    border: 1px solid #c0c5c4;
+    background: #f5f5f5;
+    border-radius: 5px;
+}
