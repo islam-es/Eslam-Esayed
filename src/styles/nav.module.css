@@ -61,8 +61,7 @@ ul li a:hover {
 }
 
 .nav {
-  background: white;
-  position: fixed;
+  background-color:  rgb(251, 245, 245);
   width: 100%;
 }
 

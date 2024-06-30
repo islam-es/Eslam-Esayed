@@ -147,9 +147,137 @@ const Home = () => {
         </div>
       </section>
       <section className={`${style.why_us} `}>
-        <h2 className="text-center mb-5 fs-1 fw-bold">لماذا نحن</h2>
-        <div className=" d-flex flex-column-reverse flex-md-row">
-          <div className={`${style.text} col-12 col-sm-6 p-4`}>
+        
+<div class="container">
+<div class="row">
+<div className={`${style.col-12}`}>
+<p className={`${style.FCB}`}>
+أبرز الإنجازات والأرقام التي تعكس جهودنا المستمرة في تقديم خدمات رعاية صحية متميزة وموثوقة </p>
+    </div>
+  </div>
+<div class="row numbers-cards">
+<div class="col-md-3">
+<div className={`${style.iconbox}`}>
+<div className={`${style.iconbg}`}>
+
+<img class="number-icon-img js-lazy-image" src="https://altibbi.com/theme/altibbi/icons/tbi-download.svg" alt=""/>
+
+</div>
+<div class="number-icon-body">
+<span className={`${style.rr}`}>3M+ </span>
+<p className={`${style.Description}`}>تحميل للتطبيق </p>
+      </div>
+    </div>
+  </div>
+<div class="col-md-3">
+<div className={`${style.iconbox}`}>
+<div className={`${style.iconbg}`}>
+<img class="number-icon-img js-lazy-image" src="https://altibbi.com/theme/altibbi/icons/tbi-doctor.svg" alt=""/> 
+</div>
+<div class="number-icon-body">
+<span className={`${style.rr}`}>3M+ </span>
+<p className={`${style.Description}`}>استشارة طبية </p>
+      </div>
+    </div>
+  </div>
+<div class="col-md-3">
+<div className={`${style.iconbox}`}>
+<div className={`${style.iconbg}`}>
+<img class="number-icon-img js-lazy-image" src="https://altibbi.com/theme/altibbi/icons/tbi-question-grayblue.svg
+" alt=""/>
+</div>
+<div class="number-icon-body">
+<span className={`${style.rr}`}>1.5M+ </span>
+<p className={`${style.Description}`}>توصية طبية </p>
+      </div>
+    </div>
+  </div>
+<div class="col-md-3">
+<div className={`${style.iconbox}`}>
+<div className={`${style.iconbg}`}>
+<img class="number-icon-img js-lazy-image" src="https://altibbi.com/theme/altibbi/icons/tbi-profile-person.svg" alt=""/> 
+</div>
+<div class="number-icon-body">
+<span className={`${style.rr}`}>192M+ </span>
+<p className={`${style.Description}`}>مستخدم سنويا </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<article class="container">
+<div class="row">
+<div class="col-12 d-flex justify-content-center">
+<div class="section-heading-box">
+<h2 className={`${style.sectionheading}`}>لماذا نحن؟</h2>
+
+
+<section className={`${style.itemsbox}`}>
+<div class="row">
+  <div class="col-md-3">
+    <div className="feature-item">
+    <div className={`${style.rectanglebox}`}>
+    <img src="https://altibbi.com/theme/altibbi/icons/tbi-question.svg" alt="question-icon"/>
+    <span className={`${style.featurenumber}`}>1</span>
+    </div>
+    <div className="feature-item-body">
+    <h4 className={`${style.featureheader2}`}>خدمة 24 ساعة اسبوعيا</h4>
+    <p className={`${style.featuredescription}`}>
+    لا داعي للانتظار في العيادات. تواصل مع أفضل الأطباء وعلى مدار الساعة. </p>
+  </div>
+  </div>
+
+  </div>
+  <div class="col-md-3">
+    <div class="feature-item">
+    <div className={`${style.rectanglebox}`}>
+    <img src="https://altibbi.com/theme/altibbi/icons/tbi-quiz.svg" alt="question-icon"/>
+    <span  className={`${style.featurenumber}`}>2</span>
+    </div>
+    <div class="feature-item-body">
+    <h4 className={`${style.featureheader2}`}>خصوصية وأمان </h4>
+    <p className={`${style.featuredescription}`}>
+    نحرص على خصوصية معلوماتك الصحية ونستخدم أحدث التقنيات لضمان أمان بياناتك. </p>
+    </div>
+    </div>
+  </div>
+  <div class="col-md-3">
+    <div class="feature-item">
+    <div className={`${style.rectanglebox}`}>
+    <img src="https://altibbi.com/theme/altibbi/icons/tbi-doctor-white.svg" alt="question-icon"/>
+    <span className={`${style.featurenumber}`}>3</span>
+    </div>
+    <div class="feature-item-body">
+    <h4 className={`${style.featureheader2}`}>أطباء معتمدين </h4>
+    <p className={`${style.featuredescription}`}>
+    استشارات طبية مباشرة مع الأطباء من خلال الدردشة الفورية والمكالمات. </p>
+    </div>
+    </div>
+  </div>
+
+  <div class="col-md-3">
+    <div class="feature-item">
+    <div  className={`${style.rectanglebox}`}>
+    <img src="https://altibbi.com/theme/altibbi/icons/tbi-medical-record.svg" alt="question-icon"/>
+    <span className={`${style.featurenumber}`}>4</span>
+    </div>
+    <div class="feature-item-body">
+    <h4 className={`${style.featureheader2}`}>تكلفة  مناسبة </h4>
+    <p className={`${style.featuredescription}`}>
+    خدمات رعاية صحية بباقات اشتراك مختلفة تناسب احتياجاتك. </p>
+    </div>
+    </div>
+  </div>
+</div>
+</section>
+</div>
+</div>
+</div>
+</article>
+
+        {/* <div className=" d-flex flex-column-reverse flex-md-row"> */}
+          {/* <div className={`${style.text} col-12 col-sm-6 p-4`}>
             <ul>
               <li className="mb-3  fs-5 fw-medium">
                 {" "}
@@ -192,14 +320,17 @@ const Home = () => {
                 الحد من اخطاء الروشتة الورقية{" "}
               </li>
             </ul>
-          </div>
-          <div className={`${style.image} col-12 col-sm-6`}>
+          </div> */}
+          {/* <div className={`${style.image} col-12 col-sm-6`}>
             <img src={require("../images/pg25.jpg")} alt="Thinking_img" />
             <img src={require("../images/doctor.jpeg")} alt="Thinking_img" />
             <img src={require("../images/contact.jpg")} alt="Thinking_img" />
             <img src={require("../images/for.jpg")} alt="Thinking_img" />
-          </div>
-        </div>
+          </div> */}
+        {/* </div> */}
+
+
+
       </section>
       <Footer />
     </div>
